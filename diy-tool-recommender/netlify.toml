@@ -1,14 +1,14 @@
 [build]
-  command = "npm run build"
-  publish = "build"
-  functions = "netlify/functions"
+command = "npm run build"
+publish = "build"
+functions = "netlify/functions"
 
 [dev]
-  command = "npm start"
-  functions = "netlify/functions"
-  publish = "build"
+command = "npm start"
+functions = "netlify/functions"
+publish = "build"
 
 [[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
+from = "/api/*"
+to = "/.netlify/functions/:splat"
+status = 200
